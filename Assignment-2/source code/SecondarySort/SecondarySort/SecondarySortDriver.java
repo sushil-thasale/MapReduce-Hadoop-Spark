@@ -29,6 +29,7 @@ public class SecondarySortDriver {
 		job.setMapperClass(SecondarySortMapper.class);
 		job.setMapOutputKeyClass(StationYearPair.class);
 		job.setMapOutputValueClass(SumCountPair.class);
+		job.setPartitionerClass(StationPartitioner.class);
 		job.setGroupingComparatorClass(GroupingKeyComparator.class);
 		job.setReducerClass(SecondarySortReducer.class);
 		job.setNumReduceTasks(5);

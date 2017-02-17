@@ -1,0 +1,17 @@
+File Contents:
+"CS6240_HW2_Sushil.zip" contains following files and directories:
+1. Report : Contains analysis as required
+2. source code : This directory contains source code for all the map-reduce versions
+3. EMR output and logs : This directory contains all AWS EMR output and logs for each version of program
+
+How to run the code:
+1. Download and extract "CS6240_HW2_Sushil.zip" to CS6240_HW2_Sushil
+2. Navigate to CS6240_HW2_Sushil -> source code -> NoCombiner
+3. Download 1991.csv and copy it to "NoCombiner -> input" directory
+4. In "NoCombiner" directory open a termial
+5. Perform "make run" to run the program
+6. Output can be found under "NoCombiner -> output" directory
+7. Jar can be found under "NoCombiner -> jar" directory
+8. Similar steps can be performed to run other programs.
+
+ 

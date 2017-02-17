@@ -45,7 +45,8 @@ public class SecondarySortReducer extends
 			}
 		}
 
-		updateSummary();		
+		updateSummary();	
+		summary.replace(summary.length()-2, summary.length(), "]");
 		context.write(new Text(stationID), new Text(summary.toString()));
 	}
 
